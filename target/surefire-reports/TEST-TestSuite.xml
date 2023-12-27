@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.687" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Brij Rai\selflearning\RestAssuredTraining\target\test-classes;C:\Users\Brij Rai\selflearning\RestAssuredTraining\target\classes;C:\Users\Brij Rai\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Brij Rai\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Brij Rai\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Brij Rai\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Brij Rai\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Brij Rai\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Brij Rai\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Brij Rai\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Brij Rai\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Brij Rai\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Brij Rai\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Brij Rai\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Brij Rai\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Brij Rai\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Brij Rai\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\Brij Rai\.m2\repository\com\github\scribejava\scribejava-apis\5.3.0\scribejava-apis-5.3.0.jar;C:\Users\Brij Rai\.m2\repository\com\github\scribejava\scribejava-core\5.3.0\scribejava-core-5.3.0.jar;C:\Users\Brij Rai\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Brij Rai\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Brij Rai\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Brij Rai\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Brij Rai\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Brij Rai\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Brij Rai\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Brij Rai\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Brij Rai\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Brij Rai\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Brij Rai\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Brij Rai\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Brij Rai\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Brij Rai\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Brij Rai\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Brij Rai\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Brij Rai\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Brij Rai\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Brij Rai\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Brij Rai\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Brij Rai\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Brij Rai\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Brij Rai\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Brij Rai\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Brij Rai\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Brij Rai\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Brij Rai\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Brij Rai\.m2\repository\org\apache\logging\log4j\log4j-api\2.2\log4j-api-2.2.jar;C:\Users\Brij Rai\.m2\repository\org\apache\logging\log4j\log4j-core\2.2\log4j-core-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Brij Rai\AppData\Local\Temp\surefire10616043604259421004\surefirebooter-20231227170924321_3.jar C:\Users\Brij Rai\AppData\Local\Temp\surefire10616043604259421004 2023-12-27T17-09-24_099-jvmRun1 surefire-20231227170924321_1tmp surefire_0-20231227170924321_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Brij Rai\selflearning\RestAssuredTraining\target\test-classes;C:\Users\Brij Rai\selflearning\RestAssuredTraining\target\classes;C:\Users\Brij Rai\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Brij Rai\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Brij Rai\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Brij Rai\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Brij Rai\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Brij Rai\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Brij Rai\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Brij Rai\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Brij Rai\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Brij Rai\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Brij Rai\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Brij Rai\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Brij Rai\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Brij Rai\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Brij Rai\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\Brij Rai\.m2\repository\com\github\scribejava\scribejava-apis\5.3.0\scribejava-apis-5.3.0.jar;C:\Users\Brij Rai\.m2\repository\com\github\scribejava\scribejava-core\5.3.0\scribejava-core-5.3.0.jar;C:\Users\Brij Rai\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Brij Rai\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Brij Rai\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Brij Rai\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Brij Rai\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Brij Rai\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Brij Rai\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Brij Rai\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Brij Rai\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Brij Rai\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Brij Rai\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Brij Rai\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Brij Rai\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Brij Rai\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Brij Rai\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Brij Rai\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Brij Rai\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Brij Rai\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Brij Rai\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Brij Rai\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Brij Rai\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Brij Rai\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Brij Rai\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Brij Rai\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Brij Rai\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Brij Rai\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Brij Rai\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Brij Rai\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Brij Rai\.m2\repository\org\apache\logging\log4j\log4j-api\2.2\log4j-api-2.2.jar;C:\Users\Brij Rai\.m2\repository\org\apache\logging\log4j\log4j-core\2.2\log4j-core-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Brij Rai"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Brij Rai\selflearning\RestAssuredTraining"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Brij Rai\AppData\Local\Temp\surefire10616043604259421004\surefirebooter-20231227170924321_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="Brij Rai"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Brij Rai\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BRIJRA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\Brij Rai\selflearning\RestAssuredTraining"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Brij Rai\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;%JAVA_HOME\bin;C:\Program Files\Git\cmd;C:\Users\Brij Rai\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="getCookiesInfo" classname="day3.CookiesDemo" time="2.516">
+    <system-out><![CDATA[2023-12-27 17:09:25,351 ERROR DefaultRolloverStrategy contains an invalid element or attribute "Delete"
+AEC: Ackid1SCE3zScaCiyyrBjAoQLSg-HbMFgj_LBEvtPYDEPJMRFuWvUY6U4w
+1P_JAR : 2023-12-27-11
+AEC : Ackid1SCE3zScaCiyyrBjAoQLSg-HbMFgj_LBEvtPYDEPJMRFuWvUY6U4w
+NID : 511=JsWmaz4qF5JAVNcsOQfrjqd1D1bbzncnBVw_awacNyxc2w6xndWFaRhyrRAGnmsTPLZflNKxvb4t4QfZyxZAa8zm6w7oJYyl73gULNx2h12KDzwSirfzF0jZ3wB9UdPqMr5Djs4Ilex52vtc3aEyL2wU1YONjcIZ4ADqZeICQFc
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testLogs" classname="day3.LoggingDemo" time="0.264">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 27 Dec 2023 11:39:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703315890&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=dr2p%2Fz%2Bh1V03dxmcHVrnowkqNqvsTclCA8soV1TvTGo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703315890&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=dr2p%2Fz%2Bh1V03dxmcHVrnowkqNqvsTclCA8soV1TvTGo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 6387
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 83c1487f39cf84dd-BOM
+Content-Encoding: gzip
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getHeaders" classname="day3.HeadersDemo" time="0.445">
+    <system-out><![CDATA[Header server :gws
+Date : Wed, 27 Dec 2023 11:39:28 GMT
+Expires : -1
+Cache-Control : private, max-age=0
+Content-Type : text/html; charset=ISO-8859-1
+Content-Security-Policy-Report-Only : object-src 'none';base-uri 'self';script-src 'nonce-RV8P5nrDWcQVDcMz1RnORg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+P3P : CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Encoding : gzip
+Server : gws
+X-XSS-Protection : 0
+X-Frame-Options : SAMEORIGIN
+Set-Cookie : 1P_JAR=2023-12-27-11; expires=Fri, 26-Jan-2024 11:39:28 GMT; path=/; domain=.google.com; Secure
+Set-Cookie : AEC=Ackid1S2JHvRWjDIwkaE1yjeuBLJDKsyWwd-M3wgPsXDRUnw_m20BhPvkg; expires=Mon, 24-Jun-2024 11:39:28 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+Set-Cookie : NID=511=cYL7Z1_PB6F98NQuBOu5XZMOPJpt23O4zgkQraek9GieRHSgRODkjnEpjSstlICBz0jbCVLFM4ePtRnfF1e0t4HrEk5ef0F1JMi87janyyBeLeHHs3IPj0lnvEWTTGsXdJndcCzcjCvH__AZ34YOD7TKC1paV40M0sUgOrxFO2o; expires=Thu, 27-Jun-2024 11:39:28 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding : chunked
+]]></system-out>
+  </testcase>
+  <testcase name="testQueryAndPathParameters" classname="day3.PathAndQueryParameters" time="0.337">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 27 Dec 2023 11:39:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703670925&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=F3p%2B6d0EazHXgbXWBCJzQWaoskOKKONFAbO3gZ106LM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703670925&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=F3p%2B6d0EazHXgbXWBCJzQWaoskOKKONFAbO3gZ106LM%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 6244
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 83c148844e2f9e29-SIN
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 5,
+        "email": "charles.morris@reqres.in",
+        "first_name": "Charles",
+        "last_name": "Morris",
+        "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+</testsuite>

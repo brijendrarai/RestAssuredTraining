@@ -1,0 +1,17 @@
+{
+    "location": {
+        "lng": "33.427362",
+        "lat": "-38.383494"
+    },
+    "accuracy": 50,
+    "name": "Frontline House",
+    "phone_number": "(+91) 987 654 3210",
+    "address": "29, side layout, cohen 09",
+    "types": [
+        "shoe park",
+        "shop",
+        "sandles"
+    ],
+    "website": "https://google.com",
+    "language": "French-IN"
+}
